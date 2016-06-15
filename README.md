@@ -1,0 +1,2 @@
+# JSONToModel
+JSON串转换为model，借助ESJsonFormat插件生成model文件
