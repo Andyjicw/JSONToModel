@@ -10,7 +10,7 @@
 
 @implementation JSONDicModel
 
-- (NSDictionary *)objectClassInArray{
+- (NSDictionary *)objectClassInArray {
     return @{@"data" : [Data class]};
 }
 
