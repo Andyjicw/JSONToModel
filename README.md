@@ -16,6 +16,7 @@ JSON串转换为model，借助ESJsonFormat插件生成model文件
 JSONDicModel *tmp = [JSONDicModel objectWithObj:result];
 ```
 result 是获取到的json串，最外层是个dic
+```
  {
     "data": [
         {
@@ -43,14 +44,14 @@ result 是获取到的json串，最外层是个dic
         }
     ]
  }
-
+```
 ###JSONArrModel
 
 ```
 JSONArrModel *tmp = [JSONArrModel objectWithObj:result];
 ```
 result 是获取到的json串，最外层是个arr
- 
+ ```
  [
     {
         "set_name": "www.27270.com",
@@ -69,7 +70,7 @@ result 是获取到的json串，最外层是个arr
         "pic_id": "2"
     }
  ]
- 
+ ```
 欢迎指出问题
 联系我：479003573@qq.com Andyjicw
 #TODO
