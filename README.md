@@ -3,12 +3,12 @@ JSON串转换为model，借助ESJsonFormat插件生成model文件
 
 注意：
 
-要将 model.m 中生成的 + (NSDictionary *)objectClassInArray
+要将 model.m 中生成的` + (NSDictionary *)objectClassInArray`
 
 改写成
-
+```
 - (NSDictionary *)objectClassInArray
-
+```
 ## 使用
 
 ###JSONDicModel
