@@ -2,6 +2,8 @@
 //  JSONDicModel.h
 //  JSONToModel
 //
+//  Author Andyjicw 479003573@qq.com
+//
 //  Created by andy on 16/6/15.
 //  Copyright © 2016年 andy. All rights reserved.
 //
@@ -18,17 +20,17 @@
 
 @interface Data : NSObject
 
-@property (nonatomic, copy) NSString *classes;
+@property (nonatomic, copy  ) NSString *classes;
 
 @property (nonatomic, strong) Set_Name *set_name;
 
-@property (nonatomic, copy) NSString *group;
+@property (nonatomic, copy  ) NSString *group;
 
-@property (nonatomic, copy) NSString *file_ext;
+@property (nonatomic, copy  ) NSString *file_ext;
 
-@property (nonatomic, copy) NSString *pic_count;
+@property (nonatomic, copy  ) NSString *pic_count;
 
-@property (nonatomic, copy) NSString *pic_id;
+@property (nonatomic, copy  ) NSString *pic_id;
 
 @end
 

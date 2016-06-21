@@ -2,6 +2,8 @@
 //  GET.m
 //  Network
 //
+//  Author Andyjicw 479003573@qq.com
+//
 //  Created by andy on 16/6/8.
 //  Copyright © 2016年 andy. All rights reserved.
 //
@@ -54,7 +56,7 @@
         }
         if (success) {
             
-            NSString * newStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSString * newStr  = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             NSLog(@" GET_请求的URL ： ==>%@<==\n", url);
             NSLog(@" GET_响应字符串(JSON) ： ==>%@<==\n", newStr);
             NSError *jsonError;
