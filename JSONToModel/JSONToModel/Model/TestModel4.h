@@ -11,6 +11,7 @@
 #import <Foundation/Foundation.h>
 
 /*
+ 这里删除了重复的
 @class Testobj,Testobj1,Testobj2,Testarr,Testarrobj1,Testarrobj2,Testarr,Testarrobj1,Testarrobj2;
  */
 
@@ -36,13 +37,13 @@
 
 @interface Testobj1 : NSObject
 
-@property (nonatomic, assign) BOOL testObj1item4;
+@property (nonatomic, assign) BOOL      testObj1item4;
 
-@property (nonatomic, copy) NSString *testObj1item2;
+@property (nonatomic, copy  ) NSString  *testObj1item2;
 
 @property (nonatomic, assign) NSInteger testObj1item3;
 
-@property (nonatomic, copy) NSString *testObj1item1;
+@property (nonatomic, copy  ) NSString  *testObj1item1;
 
 @end
 
@@ -66,13 +67,13 @@
 
 @interface Testarrobj1 : NSObject
 
-@property (nonatomic, copy) NSString *testArrObj1item2;
+@property (nonatomic, copy  ) NSString  *testArrObj1item2;
 
 @property (nonatomic, assign) NSInteger testArrObj1item3;
 
-@property (nonatomic, copy) NSString *testArrObj1item1;
+@property (nonatomic, copy  ) NSString  *testArrObj1item1;
 
-@property (nonatomic, assign) BOOL testArrObj1item4;
+@property (nonatomic, assign) BOOL      testArrObj1item4;
 
 @end
 
@@ -86,6 +87,7 @@
 
 @end
 
+//以下 为重复生成的 删掉
 /*
 @interface Testarr : NSObject
 

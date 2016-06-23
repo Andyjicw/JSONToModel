@@ -29,10 +29,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self testModel1];
-//    [self testModel2];
-//    [self testModel3];
-    [self testModel4];
+    [self testModel1];//最外层是字典
+    [self testModel2];//最外层是数组
+    [self testModel3];//最外层是数组，以及多层嵌套
+    [self testModel4];//含有空(null)字段，以及多层嵌套
 }
 
 #pragma mark - testModel1
