@@ -1,6 +1,6 @@
 //
 //  JSONArrModel.h
-//  JSONToModel
+//  TestModel2
 //
 //  Author Andyjicw 479003573@qq.com
 //
@@ -12,7 +12,7 @@
 
 @class model;
 
-@interface JSONArrModel : NSObject
+@interface TestModel2 : NSObject
 
 @property (nonatomic, strong) NSArray<model *> *modelArr;
 
@@ -31,6 +31,8 @@
 @property (nonatomic, copy) NSString *pic_count;
 
 @property (nonatomic, copy) NSString *pic_id;
+
+@property (nonatomic, copy) NSString *test;
 
 @end
 

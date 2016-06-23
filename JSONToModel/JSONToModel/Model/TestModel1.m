@@ -1,6 +1,6 @@
 //
 //  JSONDicModel.m
-//  JSONToModel
+//  TestModel1
 //
 //  Author Andyjicw 479003573@qq.com
 //
@@ -8,10 +8,18 @@
 //  Copyright © 2016年 andy. All rights reserved.
 //
 
-#import "JSONDicModel.h"
+#import "TestModel1.h"
 
-@implementation JSONDicModel
-
+@implementation TestModel1
+/*
+ 
+这里要将 ESJosnFormat 生成的函数的"+"改成"-"
+ 
++ (NSDictionary *)objectClassInArray {
+    return @{@"data" : [Data class]};
+}
+ 
+*/
 - (NSDictionary *)objectClassInArray {
     return @{@"data" : [Data class]};
 }

@@ -115,14 +115,11 @@
                                     [mArray addObject:[class objectWithObj:value[i]]];
                                 }
                                 value = mArray;
-                                
                             } else {
                                 value = array;
-                                NSLog(@"--%@--没有检测到以%@命名的数组内元素相匹配的数据类型", NSStringFromClass(c), key);
                             }
                         } else {
                             value = array;
-                            NSLog(@"--%@--没有检测到以%@命名的数组内元素相匹配的数据类型", NSStringFromClass(c), key);
                         }
                     } else {
                         value = array;

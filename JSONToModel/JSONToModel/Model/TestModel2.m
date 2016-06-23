@@ -1,6 +1,6 @@
 //
 //  JSONArrModel.m
-//  JSONToModel
+//  TestModel2
 //
 //  Author Andyjicw 479003573@qq.com
 //
@@ -8,10 +8,19 @@
 //  Copyright © 2016年 andy. All rights reserved.
 //
 
-#import "JSONArrModel.h"
+#import "TestModel2.h"
 
-@implementation JSONArrModel
+@implementation TestModel2
 
+/*
+ 
+这里要将 ESJosnFormat 生成的函数的"+"改成"-"
+ 
++ (NSDictionary *)objectClassInArray{
+    return @{@"modelArr" : [model class]};
+}
+
+*/
 - (NSDictionary *)objectClassInArray{
     return @{@"modelArr" : [model class]};
 }
@@ -19,6 +28,7 @@
 @end
 
 @implementation model
+
 
 @end
 

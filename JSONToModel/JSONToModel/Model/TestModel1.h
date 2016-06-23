@@ -1,6 +1,6 @@
 //
 //  JSONDicModel.h
-//  JSONToModel
+//  TestModel1
 //
 //  Author Andyjicw 479003573@qq.com
 //
@@ -12,7 +12,7 @@
 
 @class Data,Set_Name;
 
-@interface JSONDicModel : NSObject
+@interface TestModel1 : NSObject
 
 @property (nonatomic, strong) NSArray<Data *> *data;
 

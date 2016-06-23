@@ -13,11 +13,15 @@
 		A102CC401D11528B00D9B8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A102CC3E1D11528B00D9B8E2 /* Main.storyboard */; };
 		A102CC421D11528B00D9B8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A102CC411D11528B00D9B8E2 /* Assets.xcassets */; };
 		A102CC451D11528B00D9B8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A102CC431D11528B00D9B8E2 /* LaunchScreen.storyboard */; };
-		A18C63AA1D117060006187DD /* JSONDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63A91D117060006187DD /* JSONDicModel.m */; };
-		A18C63AD1D117119006187DD /* JSONArrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63AC1D117119006187DD /* JSONArrModel.m */; };
+		A15F762F1D1BBD90008BE7E4 /* TestModel3.m in Sources */ = {isa = PBXBuildFile; fileRef = A15F762E1D1BBD90008BE7E4 /* TestModel3.m */; };
+		A18C63AA1D117060006187DD /* TestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63A91D117060006187DD /* TestModel1.m */; };
+		A18C63AD1D117119006187DD /* TestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63AC1D117119006187DD /* TestModel2.m */; };
 		A18C63B11D1176C1006187DD /* NSObject+JSONToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63B01D1176C1006187DD /* NSObject+JSONToModel.m */; };
 		A1C7ADA21D11575B00783769 /* GET.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C7AD9F1D11575B00783769 /* GET.m */; };
 		A1C7ADA31D11575B00783769 /* POST.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ADA11D11575B00783769 /* POST.m */; };
+		A1D362331D1BC888009680BE /* TestModel1.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D362301D1BC888009680BE /* TestModel1.json */; };
+		A1D362341D1BC888009680BE /* TestModel2.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D362311D1BC888009680BE /* TestModel2.json */; };
+		A1D362351D1BC888009680BE /* TestModel3.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D362321D1BC888009680BE /* TestModel3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +35,21 @@
 		A102CC411D11528B00D9B8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A102CC441D11528B00D9B8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A102CC461D11528B00D9B8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A18C63A81D117060006187DD /* JSONDicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDicModel.h; sourceTree = "<group>"; };
-		A18C63A91D117060006187DD /* JSONDicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDicModel.m; sourceTree = "<group>"; };
-		A18C63AB1D117119006187DD /* JSONArrModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONArrModel.h; sourceTree = "<group>"; };
-		A18C63AC1D117119006187DD /* JSONArrModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONArrModel.m; sourceTree = "<group>"; };
+		A15F762D1D1BBD90008BE7E4 /* TestModel3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel3.h; sourceTree = "<group>"; };
+		A15F762E1D1BBD90008BE7E4 /* TestModel3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel3.m; sourceTree = "<group>"; };
+		A18C63A81D117060006187DD /* TestModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel1.h; sourceTree = "<group>"; };
+		A18C63A91D117060006187DD /* TestModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel1.m; sourceTree = "<group>"; };
+		A18C63AB1D117119006187DD /* TestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel2.h; sourceTree = "<group>"; };
+		A18C63AC1D117119006187DD /* TestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel2.m; sourceTree = "<group>"; };
 		A18C63AF1D1176C1006187DD /* NSObject+JSONToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONToModel.h"; sourceTree = "<group>"; };
 		A18C63B01D1176C1006187DD /* NSObject+JSONToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONToModel.m"; sourceTree = "<group>"; };
 		A1C7AD9E1D11575B00783769 /* GET.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GET.h; sourceTree = "<group>"; };
 		A1C7AD9F1D11575B00783769 /* GET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GET.m; sourceTree = "<group>"; };
 		A1C7ADA01D11575B00783769 /* POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POST.h; sourceTree = "<group>"; };
 		A1C7ADA11D11575B00783769 /* POST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POST.m; sourceTree = "<group>"; };
+		A1D362301D1BC888009680BE /* TestModel1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestModel1.json; sourceTree = "<group>"; };
+		A1D362311D1BC888009680BE /* TestModel2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestModel2.json; sourceTree = "<group>"; };
+		A1D362321D1BC888009680BE /* TestModel3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestModel3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +109,15 @@
 		A18C63A71D117048006187DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A18C63A81D117060006187DD /* JSONDicModel.h */,
-				A18C63A91D117060006187DD /* JSONDicModel.m */,
-				A18C63AB1D117119006187DD /* JSONArrModel.h */,
-				A18C63AC1D117119006187DD /* JSONArrModel.m */,
+				A18C63A81D117060006187DD /* TestModel1.h */,
+				A18C63A91D117060006187DD /* TestModel1.m */,
+				A1D362301D1BC888009680BE /* TestModel1.json */,
+				A18C63AB1D117119006187DD /* TestModel2.h */,
+				A18C63AC1D117119006187DD /* TestModel2.m */,
+				A1D362311D1BC888009680BE /* TestModel2.json */,
+				A15F762D1D1BBD90008BE7E4 /* TestModel3.h */,
+				A15F762E1D1BBD90008BE7E4 /* TestModel3.m */,
+				A1D362321D1BC888009680BE /* TestModel3.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,7 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D362341D1BC888009680BE /* TestModel2.json in Resources */,
 				A102CC451D11528B00D9B8E2 /* LaunchScreen.storyboard in Resources */,
+				A1D362331D1BC888009680BE /* TestModel1.json in Resources */,
+				A1D362351D1BC888009680BE /* TestModel3.json in Resources */,
 				A102CC421D11528B00D9B8E2 /* Assets.xcassets in Resources */,
 				A102CC401D11528B00D9B8E2 /* Main.storyboard in Resources */,
 			);
@@ -199,11 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1C7ADA21D11575B00783769 /* GET.m in Sources */,
-				A18C63AD1D117119006187DD /* JSONArrModel.m in Sources */,
+				A18C63AD1D117119006187DD /* TestModel2.m in Sources */,
 				A18C63B11D1176C1006187DD /* NSObject+JSONToModel.m in Sources */,
+				A15F762F1D1BBD90008BE7E4 /* TestModel3.m in Sources */,
 				A1C7ADA31D11575B00783769 /* POST.m in Sources */,
 				A102CC3D1D11528B00D9B8E2 /* ViewController.m in Sources */,
-				A18C63AA1D117060006187DD /* JSONDicModel.m in Sources */,
+				A18C63AA1D117060006187DD /* TestModel1.m in Sources */,
 				A102CC3A1D11528B00D9B8E2 /* AppDelegate.m in Sources */,
 				A102CC371D11528B00D9B8E2 /* main.m in Sources */,
 			);
