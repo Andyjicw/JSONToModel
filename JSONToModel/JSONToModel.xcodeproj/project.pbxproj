@@ -17,6 +17,9 @@
 		A18C63AA1D117060006187DD /* TestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63A91D117060006187DD /* TestModel1.m */; };
 		A18C63AD1D117119006187DD /* TestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63AC1D117119006187DD /* TestModel2.m */; };
 		A18C63B11D1176C1006187DD /* NSObject+JSONToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C63B01D1176C1006187DD /* NSObject+JSONToModel.m */; };
+		A18D1F6E1D1BCE5400D78200 /* TestModel4.json in Resources */ = {isa = PBXBuildFile; fileRef = A18D1F6D1D1BCE5400D78200 /* TestModel4.json */; };
+		A18D1F711D1BCE6100D78200 /* TestModel4.m in Sources */ = {isa = PBXBuildFile; fileRef = A18D1F701D1BCE6100D78200 /* TestModel4.m */; };
+		A18D1F731D1BD0AE00D78200 /* JSONToModelDemo.php in Resources */ = {isa = PBXBuildFile; fileRef = A18D1F721D1BD0AE00D78200 /* JSONToModelDemo.php */; };
 		A1C7ADA21D11575B00783769 /* GET.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C7AD9F1D11575B00783769 /* GET.m */; };
 		A1C7ADA31D11575B00783769 /* POST.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ADA11D11575B00783769 /* POST.m */; };
 		A1D362331D1BC888009680BE /* TestModel1.json in Resources */ = {isa = PBXBuildFile; fileRef = A1D362301D1BC888009680BE /* TestModel1.json */; };
@@ -43,6 +46,10 @@
 		A18C63AC1D117119006187DD /* TestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel2.m; sourceTree = "<group>"; };
 		A18C63AF1D1176C1006187DD /* NSObject+JSONToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONToModel.h"; sourceTree = "<group>"; };
 		A18C63B01D1176C1006187DD /* NSObject+JSONToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONToModel.m"; sourceTree = "<group>"; };
+		A18D1F6D1D1BCE5400D78200 /* TestModel4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestModel4.json; sourceTree = "<group>"; };
+		A18D1F6F1D1BCE6100D78200 /* TestModel4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel4.h; sourceTree = "<group>"; };
+		A18D1F701D1BCE6100D78200 /* TestModel4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel4.m; sourceTree = "<group>"; };
+		A18D1F721D1BD0AE00D78200 /* JSONToModelDemo.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = JSONToModelDemo.php; sourceTree = "<group>"; };
 		A1C7AD9E1D11575B00783769 /* GET.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GET.h; sourceTree = "<group>"; };
 		A1C7AD9F1D11575B00783769 /* GET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GET.m; sourceTree = "<group>"; };
 		A1C7ADA01D11575B00783769 /* POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POST.h; sourceTree = "<group>"; };
@@ -85,6 +92,7 @@
 				A18C63AE1D1176C1006187DD /* Category */,
 				A18C63A71D117048006187DD /* Model */,
 				A1C7AD9D1D11575B00783769 /* Network */,
+				A18D1F721D1BD0AE00D78200 /* JSONToModelDemo.php */,
 				A102CC381D11528B00D9B8E2 /* AppDelegate.h */,
 				A102CC391D11528B00D9B8E2 /* AppDelegate.m */,
 				A102CC3B1D11528B00D9B8E2 /* ViewController.h */,
@@ -118,6 +126,9 @@
 				A15F762D1D1BBD90008BE7E4 /* TestModel3.h */,
 				A15F762E1D1BBD90008BE7E4 /* TestModel3.m */,
 				A1D362321D1BC888009680BE /* TestModel3.json */,
+				A18D1F6F1D1BCE6100D78200 /* TestModel4.h */,
+				A18D1F701D1BCE6100D78200 /* TestModel4.m */,
+				A18D1F6D1D1BCE5400D78200 /* TestModel4.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +213,8 @@
 				A1D362341D1BC888009680BE /* TestModel2.json in Resources */,
 				A102CC451D11528B00D9B8E2 /* LaunchScreen.storyboard in Resources */,
 				A1D362331D1BC888009680BE /* TestModel1.json in Resources */,
+				A18D1F6E1D1BCE5400D78200 /* TestModel4.json in Resources */,
+				A18D1F731D1BD0AE00D78200 /* JSONToModelDemo.php in Resources */,
 				A1D362351D1BC888009680BE /* TestModel3.json in Resources */,
 				A102CC421D11528B00D9B8E2 /* Assets.xcassets in Resources */,
 				A102CC401D11528B00D9B8E2 /* Main.storyboard in Resources */,
@@ -219,6 +232,7 @@
 				A18C63AD1D117119006187DD /* TestModel2.m in Sources */,
 				A18C63B11D1176C1006187DD /* NSObject+JSONToModel.m in Sources */,
 				A15F762F1D1BBD90008BE7E4 /* TestModel3.m in Sources */,
+				A18D1F711D1BCE6100D78200 /* TestModel4.m in Sources */,
 				A1C7ADA31D11575B00783769 /* POST.m in Sources */,
 				A102CC3D1D11528B00D9B8E2 /* ViewController.m in Sources */,
 				A18C63AA1D117060006187DD /* TestModel1.m in Sources */,

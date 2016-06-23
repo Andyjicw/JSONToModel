@@ -18,6 +18,7 @@
 #import "TestModel1.h"
 #import "TestModel2.h"
 #import "TestModel3.h"
+#import "TestModel4.h"
 
 @interface ViewController ()
 
@@ -27,12 +28,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self testModel1];
-    [self testModel2];
-    [self testModel3];
+    
+//    [self testModel1];
+//    [self testModel2];
+//    [self testModel3];
+    [self testModel4];
 }
 
-#pragma mark - testJSONDic
+#pragma mark - testModel1
 
 - (void) testModel1 {
     
@@ -51,6 +54,8 @@
           }];
 }
 
+#pragma mark - testModel2
+
 - (void) testModel2 {
     
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
@@ -67,6 +72,9 @@
               NSLog(@"%@",error);
           }];
 }
+
+#pragma mark - testModel3
+
 - (void) testModel3 {
     
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
@@ -82,4 +90,23 @@
               NSLog(@"%@",error);
           }];
 }
+
+#pragma mark - testModel4
+
+- (void) testModel4 {
+    
+    NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
+    [body setObject:@"demo4" forKey:@"key"];
+    [POST withUrl:TEST_URL
+             body:body
+          success:^(id result) {
+              TestModel4 *tmp = [TestModel4 objectWithObj:result];
+              //在这里 断点查看 解析出来的tmp
+              NSLog(@"%@",tmp);
+          }
+          failure:^(NSError *error) {
+              NSLog(@"%@",error);
+          }];
+}
+
 @end
