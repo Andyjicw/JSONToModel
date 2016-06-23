@@ -12,9 +12,9 @@
 
 @interface NSObject (JSONToModel)
 
-+ (instancetype ) objectWithObj:(id)obj;
++ (instancetype)objectWithObj:(id)obj;
 
-- (void) setObj:(id)setObj;
-- (NSDictionary *) objectClassInArray;
+- (void)setObj:(id)setObj;
+- (NSDictionary *)objectClassInArray;
 
 @end

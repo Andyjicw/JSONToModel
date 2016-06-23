@@ -39,6 +39,7 @@
              body:nil
           success:^(id result) {
               JSONDicModel *tmp = [JSONDicModel objectWithObj:result];
+              //在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
@@ -52,6 +53,7 @@
              body:nil
           success:^(id result) {
               JSONArrModel *tmp = [JSONArrModel objectWithObj:result];
+              //在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
