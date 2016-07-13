@@ -15,6 +15,7 @@
 + (instancetype)objectWithObj:(id)obj;
 
 - (void)setObj:(id)setObj;
+
 - (NSDictionary *)objectClassInArray;
 
 @end
