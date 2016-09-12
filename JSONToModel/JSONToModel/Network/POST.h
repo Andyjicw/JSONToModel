@@ -24,7 +24,7 @@ typedef void(^FailureBlock)(NSError *error);
  *  @param success 成功回调
  *  @param failure 失败回调
  */
-+ (void) withUrl:(NSString *)url
++ (void)withUrl:(NSString *)url
             body:(NSMutableDictionary *)body
          success:(SuccessBlock)success
          failure:(FailureBlock)failure;
@@ -37,7 +37,7 @@ typedef void(^FailureBlock)(NSError *error);
  *  @param success 成功回调
  *  @param failure 失败回调
  */
-+ (void) withUrl:(NSString *)url
++ (void)withUrl:(NSString *)url
             body:(NSMutableDictionary *)body
             head:(NSMutableDictionary *)head
          success:(SuccessBlock)success

@@ -29,24 +29,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self testModel1];//最外层是字典
-    [self testModel2];//最外层是数组
-    [self testModel3];//最外层是数组，以及多层嵌套
-    [self testModel4];//含有空(null)字段，以及多层嵌套
+    // 最外层是字典
+    [self testModel1];
+    
+    // 最外层是数组
+    [self testModel2];
+    
+    // 最外层是数组，以及多层嵌套
+    [self testModel3];
+    
+    // 含有空(null)字段，以及多层嵌套
+    [self testModel4];
 }
 
 #pragma mark - testModel1
 
-- (void) testModel1 {
-    
+- (void)testModel1 {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"demo1" forKey:@"key"];
-    
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
               TestModel1 *tmp = [TestModel1 objectWithObj:result];
-              //在这里 断点查看 解析出来的tmp
+              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
@@ -56,16 +61,14 @@
 
 #pragma mark - testModel2
 
-- (void) testModel2 {
-    
+- (void)testModel2 {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"demo2" forKey:@"key"];
-    
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
               TestModel2 *tmp = [TestModel2 objectWithObj:result];
-              //在这里 断点查看 解析出来的tmp
+              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
@@ -75,15 +78,14 @@
 
 #pragma mark - testModel3
 
-- (void) testModel3 {
-    
+- (void)testModel3 {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"demo3" forKey:@"key"];
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
               TestModel3 *tmp = [TestModel3 objectWithObj:result];
-              //在这里 断点查看 解析出来的tmp
+              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp.esArray[0].testObject.arr2[0]);
           }
           failure:^(NSError *error) {
@@ -93,15 +95,14 @@
 
 #pragma mark - testModel4
 
-- (void) testModel4 {
-    
+- (void)testModel4 {
     NSMutableDictionary *body = [[NSMutableDictionary alloc] init];
     [body setObject:@"demo4" forKey:@"key"];
     [POST withUrl:TEST_URL
              body:body
           success:^(id result) {
               TestModel4 *tmp = [TestModel4 objectWithObj:result];
-              //在这里 断点查看 解析出来的tmp
+              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {

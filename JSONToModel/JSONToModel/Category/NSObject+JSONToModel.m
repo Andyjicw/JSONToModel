@@ -30,14 +30,14 @@
             Ivar ivar     = ivars[i];
             NSString *key = [NSString stringWithUTF8String:ivar_getName(ivar)];
             key           = [key substringFromIndex:1];
-            //直接初始化为@0（给int bool float double long等类型赋初始值）
+            // 直接初始化为@0（给int bool float double long等类型赋初始值）
             id value = @0;
-            //获得成员变量的类型
+            // 获得成员变量的类型
             NSString *type = [NSString stringWithUTF8String:ivar_getTypeEncoding(ivar)];
-            //如果属性是对象类型
+            // 如果属性是对象类型
             NSRange range  = [type rangeOfString:@"@"];
             if (range.location != NSNotFound) {
-                //截取对象的类型名字
+                // 截取对象的类型名字
                 type = [type substringWithRange:NSMakeRange(2, type.length - 3)];
                 
                 if ([type isEqualToString:@"NSString"]) {
@@ -46,7 +46,7 @@
                 if ([type isEqualToString:@"NSNumber"]) {
                     value = @0;
                 }
-                //排除系统的对象类型（其实就是字典转化成的自定义模型）
+                // 排除系统的对象类型（其实就是字典转化成的自定义模型）
                 if (![type hasPrefix:@"NS"]) {
                     Class class = NSClassFromString(type);
                     value = [[class alloc]init];
