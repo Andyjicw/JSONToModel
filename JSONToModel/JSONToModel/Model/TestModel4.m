@@ -12,7 +12,7 @@
 
 @implementation TestModel4
 
-- (NSDictionary *)objectClassInArray{
+- (NSDictionary *)objectClassInArray {
     return @{@"testArr" : [Testarr class]};
 }
 
@@ -20,7 +20,7 @@
 
 @implementation Testobj
 
-- (NSDictionary *)objectClassInArray{
+- (NSDictionary *)objectClassInArray {
     return @{@"testArr" : [Testarr class]};
 }
 

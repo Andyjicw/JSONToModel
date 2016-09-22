@@ -15,12 +15,12 @@
  
 这里要将 ESJosnFormat 生成的函数的"+"改成"-"
  
-+ (NSDictionary *)objectClassInArray{
++ (NSDictionary *)objectClassInArray {
     return @{@"modelArr" : [model class]};
 }
 
 */
-- (NSDictionary *)objectClassInArray{
+- (NSDictionary *)objectClassInArray {
     return @{@"modelArr" : [model class]};
 }
 

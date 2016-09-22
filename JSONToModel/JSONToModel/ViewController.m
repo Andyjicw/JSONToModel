@@ -8,7 +8,7 @@
 //  Copyright © 2016年 andy. All rights reserved.
 //
 
-#define TEST_URL @"http://www.chedan.org:11111/JSONToModelDemo.php"
+#define TEST_URL @"http://220.231.200.166:8888/JSONToModelDemo.php"
 
 #import "ViewController.h"
 #import "NSObject+JSONToModel.h"
@@ -51,7 +51,6 @@
              body:body
           success:^(id result) {
               TestModel1 *tmp = [TestModel1 objectWithObj:result];
-              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
@@ -68,7 +67,6 @@
              body:body
           success:^(id result) {
               TestModel2 *tmp = [TestModel2 objectWithObj:result];
-              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
@@ -85,7 +83,6 @@
              body:body
           success:^(id result) {
               TestModel3 *tmp = [TestModel3 objectWithObj:result];
-              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp.esArray[0].testObject.arr2[0]);
           }
           failure:^(NSError *error) {
@@ -102,7 +99,6 @@
              body:body
           success:^(id result) {
               TestModel4 *tmp = [TestModel4 objectWithObj:result];
-              // 在这里 断点查看 解析出来的tmp
               NSLog(@"%@",tmp);
           }
           failure:^(NSError *error) {
