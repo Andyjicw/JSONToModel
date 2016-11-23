@@ -47,7 +47,7 @@
      */
     [req setHTTPMethod:@"GET"];
     
-    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:req completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:req completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError *_Nullable error) {
         if (error) {
             if (failure) {
                 failure(error);
@@ -56,7 +56,7 @@
         }
         if (success) {
             
-            NSString * newStr  = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSString *newStr  = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             NSLog(@" GET_请求的URL ： ==>%@<==\n", url);
             NSLog(@" GET_响应字符串(JSON) ： ==>%@<==\n", newStr);
             NSError *jsonError;

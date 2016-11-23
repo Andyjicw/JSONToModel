@@ -1,5 +1,5 @@
 <?php
-
+// Author Andyjicw 479003573@qq.com
 if (isset($_SERVER["REQUEST_METHOD"])) {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $res = (array) json_decode(file_get_contents("php://input"));

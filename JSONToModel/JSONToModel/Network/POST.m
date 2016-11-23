@@ -63,7 +63,7 @@
      */
     [req setHTTPMethod:@"POST"];
     
-    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:req completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:req completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError *_Nullable error) {
         if (error) {
             if (failure) {
                 NSLog(@" POST请求的URL : ==>%@<==\n", url);
@@ -75,7 +75,7 @@
         }
         if (success) {
             
-            NSString * newStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSString *newStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             NSLog(@" POST请求的URL : ==>%@<==\n", url);
             NSLog(@" POST请求参数(JOSN) : ==>%@<==\n", str);
             NSLog(@" POST响应字符串(JOSN) : ==>%@<==\n", newStr);
